@@ -1,8 +1,0 @@
-const config={
-    production :{
-        
-    },
-    default : {
-
-    }
-}
