@@ -34,7 +34,7 @@ const bookSchema= mongoose.Schema({
         required : true
 
     }
-},{timsestamps: true})
+},{timestamps: true})
 
 const Book =mongoose.model('Book', bookSchema);
 module.exports={Book}
