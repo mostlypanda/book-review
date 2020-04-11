@@ -5,16 +5,17 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-     "start" : "node server/server.js",
-     "server" : "nodemon server/server.js"
+    "start": "node server/server.js",
+    "server": "nodemon server/server.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mostlypanda/book-review.git"
   },
-  "engines":{
+  "engines": {
     "node": "10.15.3"
-    
   },
   "author": "",
   "license": "ISC",
@@ -28,8 +29,10 @@
     "concurrently": "^5.1.0",
     "cookie-parser": "^1.4.5",
     "express": "^4.17.1",
+    "http-proxy-middleware": "^1.0.3",
     "jsonwebtoken": "^8.5.1",
     "moment-js": "^1.1.15",
-    "mongoose": "^5.9.7"
+    "mongoose": "^5.9.7",
+    "prefix": "^1.0.0"
   }
 }
