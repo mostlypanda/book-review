@@ -1,6 +1,8 @@
 # book-review
 This web-app is basically designed to see reviews and theme of any of the famous bestsellers published by renowned authors , here only trusted parties publish their reviews and reviews are free for everyone to see. It is fully developed in MERN(mongodb, express.js, react-js and node.js) stack technologies.
 
+To run this you have to first clone this repository in your local machine
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
